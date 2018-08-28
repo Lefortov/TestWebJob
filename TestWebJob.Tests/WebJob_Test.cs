@@ -11,7 +11,7 @@ using Xunit;
 
 namespace TestWebJob.Tests
 {
-    public class UnitTest1
+    public class WebJob_Test
     {
         [Fact]
         public void Get_Prices_Successfully()
@@ -21,6 +21,7 @@ namespace TestWebJob.Tests
             Assert.NotEmpty(res);
         }
 
+        [Fact]
         public void Insert_Prices_Successfully()
         {
             try
